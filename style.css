@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+   font-family: cursive;
+    font-size: 20px;
+}
+
+.instagram{
+    display:flex;
+    justify-content: space-around;
+}
+
+.heading{
+    font-style: italic;
+    font-size: 30px !important;
+}
+.sidebar{
+    margin-left: 20px;
+    margin-top: 20px;
+    width:fit-content;
+    height:100%;
+}
+.sidebar h3{
+    text-align: center;
+}
+.sidebar ul{
+    list-style: none;
+}
+.sidebar ul li {
+    padding:20px 0px
+}
+
+.sidebar ul li i {
+    padding:0px 20px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+}
+
+.sidebar ul li .photo{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    margin-left: 18px;
+}
+
+.sidebar ul li .name{
+   padding:0 20px;
+}
+.main{
+    
+    margin-top: 20px;
+}
+.main .story{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    border: 2px solid rgb(233, 105, 126);
+}
+
+.main .story img{
+    width:56px;
+    height:56px;
+    border-radius: 50%;
+}
+
+.content{
+    width: 500px;
+    height:fit-content;
+    margin:20px 0px;
+    
+}
+
+.content ul{
+    list-style: none;
+}
+
+.total{
+    display:flex;
+    margin:30px 10px;
+    align-items: center;
+}
+.content .total .identity{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    border:2px solid rgb(233, 105, 126);
+}
+.content .total .identity img{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+}
+
+.content .total .subscriber{
+    padding:0 10px;
+    font-size:25px;
+}
+.content .reactions{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.followers{
+    margin-top: 40px;
+    width:fit-content;
+    height:fit-content;
+    border: 2px solid  black;
+    border: none;
+}
+.followers ul{
+   list-style: none;
+}
+
+.list_followers{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.leftside{
+    display:flex;
+    align-items: center;
+    
+}
+
+.followers_details{
+    padding:0 10px;
+}
+.rightside{
+    padding-left: 50px;
+    color:blue
+}
+.followers_image a img{
+    width:55px;
+    height:55px;
+    border-radius: 50%;
+    border: 3px solid pink;
+}
